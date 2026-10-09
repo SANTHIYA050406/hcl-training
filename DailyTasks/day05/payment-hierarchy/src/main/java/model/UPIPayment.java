@@ -1,11 +1,7 @@
 
 package model;
 
-public class cd C:\Users\Lenovo\IdeaProjects\java1
-git status
-git add DailyTasks/day05/payment-hierarchy
-git commit -m "Add Day 05 payment hierarchy"
-git push origin masterUPIPayment extends Payment implements Refundable {
+public class UPIPayment extends Payment implements Refundable {
     private final String upiId;
 
     public UPIPayment(double amount, String upiId) {
